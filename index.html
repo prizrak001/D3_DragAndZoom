@@ -30,7 +30,7 @@ var margin = {top: -5, right: -5, bottom: -5, left: -5},
     height = 500 - margin.top - margin.bottom;
 
 var zoom = d3.behavior.zoom()
-    .scaleExtent([1, 10])
+    .scaleExtent([0.3, 10])
     .on("zoom", zoomed);
 
 var drag = d3.behavior.drag()
